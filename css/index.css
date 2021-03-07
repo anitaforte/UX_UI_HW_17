@@ -1,0 +1,134 @@
+nav{
+    width: 73%;
+    padding: 1%;
+    font-family: 'Poppins', sans-serif;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    height: 100%;
+    position: fixed; 
+    overflow: auto; 
+  }
+.content{
+    width: 500px;
+    margin: 0 auto;
+}
+.footer{
+    background-color: black;
+    height: 30px;
+}
+.inline-block2{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+.ui{
+    padding: 20px;
+}
+.footer ul{
+    display: inline-block;
+}
+.li{
+    color: black
+}
+body{
+    background-image: "images/bgimage.png";
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+} 
+.sidenav {
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:white
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: grey
+    display: block;
+  }
+  .sidenav a:hover {
+    color: black  
+}
+.sidenav{
+        transform: rotate(90deg);
+        transform-origin: top left;
+        margin-left: 8rem;
+      } 
+  .main {
+    margin-left:50px;
+    font-size: 18px; 
+    padding: 20px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 150px;}
+    .sidenav a {font-size: 18px;}
+  }
+body, html{
+    height: 100%;
+}
+.bg {
+    background-image: "images/bgimage.png";
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    color:black;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: italic;
+    color: grey;
+    font-weight: normal;
+  }
+ .inline-block{
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: top;
+}
+.flex_item {
+    padding:10px;
+    margin:10px;
+    font-family: 'Poppins', sans-serif;
+    color:black;
+    font-weight: normal;  
+}
+  .flex {
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+  }
+  #row {
+    flex-direction: row;
+  }
