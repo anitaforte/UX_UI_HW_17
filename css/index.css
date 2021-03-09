@@ -1,4 +1,4 @@
-nav{
+nav {
     width: 73%;
     padding: 1%;
     font-family: 'Poppins', sans-serif;
@@ -11,30 +11,31 @@ ul {
     height: 100%;
     position: fixed; 
     overflow: auto; 
-  }
-.content{
+}
+content {
     width: 500px;
-    margin: 0 auto;
+    margin: 40 auto;
+    margin-top: auto;
 }
-.footer{
+footer {
     background-color: black;
-    height: 30px;
+    height: 50px;
 }
-.inline-block2{
+.inline-block2 {
     color: black;
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
 }
-.ui{
+.ui {
     padding: 20px;
 }
-.footer ul{
+.footer ul {
     display: inline-block;
 }
-.li{
+.li {
     color: black
 }
-body{
+body {
     background-image: "images/bgimage.png";
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
@@ -43,92 +44,91 @@ body{
     height: 100%;
     width: 150px;
     position: fixed;
-    z-index: 1;
+    z-index: 4;
     top: 0;
     left: 0;
     background-color:white
     overflow-x: hidden;
     padding-top: 20px;
 }
-  .sidenav a {
+.sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 18px;
     color: grey
-    display: block;
-  }
+}
   .sidenav a:hover {
     color: black  
 }
-.sidenav{
+.sidenav {
         transform: rotate(90deg);
         transform-origin: top left;
         margin-left: 8rem;
       } 
-  .main {
+.main {
     margin-left:50px;
     font-size: 18px; 
     padding: 20px;
-  }
+}
   
-  @media screen and (max-height: 450px) {
+@media screen and (max-height: 450px) {
     .sidenav {padding-top: 150px;}
     .sidenav a {font-size: 18px;}
-  }
-body, html{
+}
+body, html {
     height: 100%;
 }
 .bg {
     background-image: "images/bgimage.png";
     height: 100%;
+    width: auto;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
-p{
+}
+p {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: normal;
     color: black;
+    margin: 40px;
+    padding: 10px;
 }
-h1{
+h1 {
     font-family: 'Poppins', sans-serif;
     font-size: 35px;
     font-weight: bolder;
     color:black;
+    margin: 40px;
+    padding: 10px;
 }
-h2{
+h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 25px;
     font-weight: bolder;
     color: black;
+    margin: 40px;
+    padding: 10px;
 }
-h3{
+h3 {
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-style: italic;
     color: grey;
     font-weight: normal;
-  }
- .inline-block{
+    margin: 50px;
+}
+.inline-block {
     font-family: 'Poppins', sans-serif;
     color:black;
     font-weight: normal;
     display: inline-block;
     vertical-align: top;
 }
-.flex_item {
-    padding:10px;
-    margin:10px;
-    font-family: 'Poppins', sans-serif;
-    color:black;
-    font-weight: normal;  
+.socialLinks2 {
+  justify-content: right;
+  align-items: flex-end;
 }
-  .flex {
-    display:flex;
-    padding: 10px;
-    margin: 10px;
-  }
-  #row {
-    flex-direction: row;
-  }
+.row {
+  width: 33%;
+}
